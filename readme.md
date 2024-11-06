@@ -121,3 +121,88 @@ Aqui estão alguns recursos adicionais que podem ser úteis para entender melhor
 ---
 
 ## 🎯 Prompt de Resposta Proposto
+````
+Prompt de Resposta Proposto
+
+# Contexto
+Você é um profissional que com base nos dados a seguir irá criar uma rotina de treino e uma sugestão de plano nutricional e o seu custo médio de acordo com os dados a seguir:
+
+# Variáveis
+{{biotipo}} = Ectomorfo
+{{disponibilidade_treino}} = 4 dias
+{{tipo_de_treino}} = Todos
+{{nutrição.idade}} = 35
+{{nutrição.sexo}} = masculino
+{{nutrição.peso}} =  70
+{{nutrição.altura}}  = 1,76
+{{nutrição.nivel}} = sedentário
+
+# Escopos
+
+{{biotipo}}
+A) Ectomorfo (Corpo mais magro, difícil ganhar peso e massa muscular.)
+B) Mesomorfo (Corpo naturalmente musculoso, facilidade para ganhar massa muscular e perder gordura.)
+C) Endomorfo (Corpo com tendência a acumular gordura, maior dificuldade em perder peso.)
+
+{{disponibilidade_treino}}
+A) 1 dia (Treino Full Body)
+B) 3 dias (Treino ABC)
+C) 5 dias (Treino ABCDE)
+
+{{tipo_de_treino}}
+A) Funcional	(Exercícios que melhoram a funcionalidade do corpo, usando movimentos naturais.)
+B) Maquinário (Exercícios feitos em máquinas, com foco em isolar grupos musculares.)
+C) Peso Livre (Exercícios com pesos livres, como halteres e barras, para trabalhar vários grupos musculares simultaneamente.)
+D) Cardio (Exercícios voltados para melhorar a resistência cardiovascular, como corrida ou ciclismo.)
+E) HIIT (Treinos intervalados de alta intensidade, ótimos para queima de gordura.)
+
+{{nutrição}}
+1 - Objetivo:
+    A) Ganho de massa muscular (Aumento clórico e foco em proteínas.)
+    B) Perda de peso (Déficit calórico e controle de porções.)
+    C) Manutenção (Equilíbrio entre calorias consumidas e gastas)
+
+2 - Perfil do individuo:
+    A) Biotipo (Ectomorfo, mesomorfo ou endomorfo.)
+    B) Idade (Necessidades nutricionais variam com a idade.)
+    C) Sexo (Diferenças nas necessidades calóricas e nutricionais.)
+    D) IMC (Relação entre peso e altura)
+    D) Nível (Nível de atividade física: Sedentário, moderado ou ativo.)
+
+3 - Macronutrientes:
+    A) Proteínas (Importância para construção muscular e recuperação.)
+    B) Carboidratos (Fonte primária de energia, especialmente para atividades físicas.)
+    C) Gorduras (Essenciais para funções corporais e absorção de vitaminas.)
+
+4 - Micronutrientes:
+    A) Vitaminas e Minerias (Importantes para a saúde geral, metabolismo e recuperação.)
+    B) Suplementação (Considerar se necessário, mas priorizar fontes alimentares.)
+
+5 - Frequência e horário das refeições:
+    A) Número de refeições (3 grandes refeições ou 5-6 menores ao longo do dia.)
+    B) Horários (Ajustar as refeições em torno do treino e da rotina diária.)
+
+6 - Hidratação:
+    A) Ingestão de água (Importante para desempenho físico e saúde geral.)
+    B) Bebidas (Considerar a ingestão de bebidas eletrolíticas em treinos intensos.)
+
+7 - Preferências alimentares
+    A) Restrições Dietéticas (Alérgicas ou éticas (vegetarianismo, veganismo).)
+    B) Gostos e Desgostos (Para garantir adesão ao plano.)
+
+8 - Acessibilidade e custo:
+    A) Disponibilidade de alimentos (Considerar o que está facilmente acessível.)
+    B) Orçamento (Planejar refeições que se encaixem no orçamento, em caso de não informar exibir os valores aproximados a serem gastos.)
+
+9 - Culturas e tradições:
+    A) Alimentos tradicionais (Incluir alimentos da cultura do indivíduo para maior aceitação.)
+
+10 - Monitoramento e ajustes:
+    A) Registro Alimentar (Acompanhar a ingestão para identificar padrões.)
+    B) Avaliação Regular (Ajustar o plano conforme progresso e feedback.)
+
+11 - Educação Nutricional
+    A) Informações sobre alimentos (Ensinar sobre a composição dos alimentos e suas funções.)
+    B) Habilidades de cozinha (Incentivar a preparação de refeições em casa.)
+
+````
